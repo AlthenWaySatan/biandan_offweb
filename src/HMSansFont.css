@@ -1,25 +1,28 @@
 @font-face {
-    font-family: 'HMSans';
-    src: url('../font/HarmonyOS_Sans_Bold.ttf');
-    font-weight: bold;
+    font-family: "HarmonyOS_Sans";
+    src: url('../font/HarmonyOS_Sans_Regular.woff') format('woff'),
+        url('../font/HarmonyOS_Sans_Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'HMSans';
-    src: url('../font/HarmonyOS_Sans_Regular.ttf');
+    font-family: "HarmonyOS_Sans";
+    src: url('../font/HarmonyOS_Sans_Bold.woff') format('woff'),
+        url('../font/HarmonyOS_Sans_Bold.ttf') format('truetype');
+    font-weight: bold;
 }
 
-text .text_level1 {
-    font-family: 'HMSans';
+
+.text_level1 {
+    font-family: 'HarmonyOS_Sans';
     color: #000000ff;
 }
 
-text .text_level2 {
-    font-family: 'HMSans';
+.text_level2 {
+    font-family: 'HarmonyOS_Sans';
     color: #00000099;
 }
 
-text .text_level3 {
-    font-family: 'HMSans';
+.text_level3 {
+    font-family: 'HarmonyOS_Sans';
     color: #00000066;
 }

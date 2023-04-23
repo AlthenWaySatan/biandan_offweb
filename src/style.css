@@ -17,10 +17,12 @@ body {
 .swiper {
     width: 100%;
     height: 100%;
+    --swiper-pagination-color: #e08a2d;
 }
 
 .page {
     background: #f1f2f3;
+    /* background: #f7b500; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +30,7 @@ body {
 }
 
 .footer {
-    background: #f8b600;
+    background: #f1f2f3;
     display: flex;
     justify-content: center;
     align-items: center;

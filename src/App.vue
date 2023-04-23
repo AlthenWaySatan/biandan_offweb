@@ -1,9 +1,11 @@
 <template>
-  <swiper :direction="'vertical'" :slidesPerView="1" :spaceBetween="0" :mousewheel="true"
-    :pagination="{ clickable: true, }" :modules="modules" class="mySwiper">
+  <swiper :direction="'vertical'" :slidesPerView="'auto'" :spaceBetween="0" :mousewheel="true"
+    :pagination="{ clickable: true, dynamicBullets: true }" :modules="modules" class="mySwiper">
     <swiper-slide class="page">
+      <Page0></Page0>
     </swiper-slide>
     <swiper-slide class="footer">
+      <Footer></Footer>
     </swiper-slide>
   </swiper>
 </template>
@@ -12,8 +14,11 @@
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 import 'swiper/css/pagination';
-
 import './style.css';
+
+import Page0 from "./views/page0.vue";
+import Footer from "./views/footer.vue";
+
 
 // import required modules
 import { Mousewheel, Pagination } from 'swiper';
@@ -22,6 +27,8 @@ export default {
   components: {
     Swiper,
     SwiperSlide,
+    Page0,
+    Footer,
   },
   setup() {
     return {

@@ -1,0 +1,85 @@
+.pageback {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.pageback_img {
+    height: 100%;
+    /* max-width: 50%; */
+    object-fit: cover;
+}
+
+.pageback_img1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.pageback_img2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.align_left {
+    text-align: left;
+}
+
+.align_right {
+    text-align: right;
+}
+
+.center0 {
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 3;
+}
+
+.mainIcon {
+    width: 192px;
+    height: 192px;
+    opacity: 1;
+    border-radius: 41.26px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.mainTitle {
+    opacity: 1;
+    display: flex;
+    font-size: 72px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mainSubTitle {
+    opacity: 1;
+    display: flex;
+    font-size: 36px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mainIntroduce {
+    opacity: 1;
+    display: flex;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mainStamp {
+    /* height: 36px; */
+    opacity: 1;
+    margin-top: 40px;
+    display: flex;
+}
