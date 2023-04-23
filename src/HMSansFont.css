@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'HMSans';
+    src: url('../font/HarmonyOS_Sans_Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'HMSans';
+    src: url('../font/HarmonyOS_Sans_Regular.ttf');
+}
+
+text .text_level1 {
+    font-family: 'HMSans';
+    color: #000000ff;
+}
+
+text .text_level2 {
+    font-family: 'HMSans';
+    color: #00000099;
+}
+
+text .text_level3 {
+    font-family: 'HMSans';
+    color: #00000066;
+}
