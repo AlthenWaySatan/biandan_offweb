@@ -22,7 +22,7 @@
                 · 万能卡片 · 四象限视图 · 日历视图· <br>
                 · 多彩主题 · 自动深色 ·
             </text>
-            <div class="mainStamp"></div>
+            <!-- <div class="mainStamp"></div> -->
         </div>
     </div>
 </template>
