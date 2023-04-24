@@ -31,5 +31,6 @@
 
 import './page0.css';
 import '../HMSansFont.css';
+import '../animate.css';
 
 </script>

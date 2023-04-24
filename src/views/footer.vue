@@ -1,11 +1,13 @@
 <template>
     <div class="background">
         <div class="item">
-            <div class="center">
-                <img src="/icon.png" alt="icon" class="icon">
-                <text class="text_level1 title">便单</text>
-                <text class="text_level1 subTitle">小巧轻便的待办清单</text>
-            </div>
+            <a href="#/" class="text_level1">
+                <div class="center">
+                    <img src="/icon.png" alt="icon" class="icon">
+                    <text class="title">便单</text>
+                    <text class="subTitle">小巧轻便的待办清单</text>
+                </div>
+            </a>
         </div>
         <div class="item" @mouseover="mouseoverLink" @mouseleave="mouseoutLink" @click="clickLink">
             <text v-if="!Linkstate.show" class="text_level3 itemText">联系我们</text>
@@ -27,13 +29,19 @@
             </div>
         </div>
         <div class="item">
-            <text class="text_level3 itemText">常见问题</text>
+            <a href="#/questions" class="text_level3">
+                <text class="itemText">常见问题</text>
+            </a>
         </div>
         <div class="item">
-            <text class="text_level3 itemText">用户协议</text>
+            <a href="#/userAgreement" class="text_level3">
+                <text class="itemText">用户协议</text>
+            </a>
         </div>
         <div class="item">
-            <text class="text_level3 itemText">隐私声明</text>
+            <a href="#/privacyStatement" class="text_level3">
+                <text class="itemText">隐私政策</text>
+            </a>
         </div>
     </div>
 </template>

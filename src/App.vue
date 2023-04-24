@@ -1,45 +1,34 @@
 <template>
-  <swiper :direction="'vertical'" :slidesPerView="'auto'" :spaceBetween="0" :mousewheel="true"
-    :pagination="{ clickable: true, dynamicBullets: true }" :modules="modules" class="mySwiper"
-    @transitionEnd="changeSlide">
-    <swiper-slide class="page">
-      <Page0></Page0>
-    </swiper-slide>
-    <swiper-slide class="footer">
-      <Footer></Footer>
-    </swiper-slide>
-  </swiper>
+  <component :is="currentView" />
 </template>
 <script>
-// Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import './style.css';
+import Home from './pages/home.vue'
+import Questions from './pages/question.vue'
+import UserAgreement from './pages/userAgreement.vue'
+import PrivacyStatement from './pages/PrivacyStatement.vue'
 
-import Page0 from "./views/page0.vue";
-import Footer from "./views/footer.vue";
-
-
-// import required modules
-import { Mousewheel, Pagination } from 'swiper';
+const routes = {
+  '/': Home,
+  '/questions': Questions,
+  '/userAgreement': UserAgreement,
+  '/privacyStatement': PrivacyStatement,
+}
 
 export default {
-  components: {
-    Swiper,
-    SwiperSlide,
-    Page0,
-    Footer,
-  },
-  methods: {
-    changeSlide(swiper) {
-      console.log('Index: ' + swiper.activeIndex);
+  data() {
+    return {
+      currentPath: window.location.hash
     }
   },
-  setup() {
-    return {
-      modules: [Mousewheel, Pagination],
-    };
+  computed: {
+    currentView() {
+      return routes[this.currentPath.slice(1) || '/'] || Home
+    }
   },
-};
+  mounted() {
+    window.addEventListener('hashchange', () => {
+      this.currentPath = window.location.hash
+    })
+  }
+}
 </script>
