@@ -1,18 +1,18 @@
 <template>
     <div class="pageback">
-        <div class="pageback_img1 align_left">
+        <div class="pageback_img1 align_left move-left">
             <img src="/background/0-1-l.svg" alt="background" class="pageback_img">
         </div>
-        <div class="pageback_img1 align_right">
+        <div class="pageback_img1 align_right move-right">
             <img src="/background/0-1-r.svg" alt="background" class="pageback_img">
         </div>
-        <div class="pageback_img2 align_left">
+        <div class="pageback_img2 align_left move-left">
             <img src="/background/0-0.5-l.svg" alt="background" class="pageback_img">
         </div>
-        <div class="pageback_img2 align_right">
+        <div class="pageback_img2 align_right move-right">
             <img src="/background/0-0.5-r.svg" alt="background" class="pageback_img">
         </div>
-        <div class="center0">
+        <div class="center0 fade-in">
             <img src="/icon.png" alt="icon" class="mainIcon">
             <text class="text_level1 mainTitle">便单</text>
             <text class="text_level1 mainSubTitle">小巧轻便的待办清单</text>
@@ -22,7 +22,7 @@
                 · 万能卡片 · 四象限视图 · 日历视图· <br>
                 · 多彩主题 · 自动深色 ·
             </text>
-            <img src="/stamp.png" alt="stamp" class="mainStamp">
+            <div class="mainStamp"></div>
         </div>
     </div>
 </template>

@@ -1,6 +1,7 @@
 <template>
   <swiper :direction="'vertical'" :slidesPerView="'auto'" :spaceBetween="0" :mousewheel="true"
-    :pagination="{ clickable: true, dynamicBullets: true }" :modules="modules" class="mySwiper">
+    :pagination="{ clickable: true, dynamicBullets: true }" :modules="modules" class="mySwiper"
+    @transitionEnd="changeSlide">
     <swiper-slide class="page">
       <Page0></Page0>
     </swiper-slide>
@@ -29,6 +30,11 @@ export default {
     SwiperSlide,
     Page0,
     Footer,
+  },
+  methods: {
+    changeSlide(swiper) {
+      console.log('Index: ' + swiper.activeIndex);
+    }
   },
   setup() {
     return {
