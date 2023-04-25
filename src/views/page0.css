@@ -45,17 +45,31 @@
 .mainIcon {
     width: 192px;
     height: 192px;
-    opacity: 1;
     border-radius: 41.26px;
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
     display: flex;
 }
 
+.mainIcon-m {
+    width: 128px;
+    height: 128px;
+    border-radius: 27.5px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
 .mainTitle {
-    opacity: 1;
     display: flex;
     font-size: 72px;
     margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mainTitle-m {
+    display: flex;
+    font-size: 48px;
+    margin-top: 14px;
     font-weight: bold;
     text-align: center;
 }
@@ -68,10 +82,25 @@
     text-align: center;
 }
 
+.mainSubTitle-m {
+    display: flex;
+    font-size: 24px;
+    margin-top: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
 .mainIntroduce {
     display: flex;
     font-size: 24px;
     margin-top: 20px;
+    text-align: center;
+}
+
+.mainIntroduce-m {
+    display: flex;
+    font-size: 16px;
+    margin-top: 14px;
     text-align: center;
 }
 
