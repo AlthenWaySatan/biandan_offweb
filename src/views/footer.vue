@@ -10,7 +10,7 @@
             </a>
         </div>
         <div class="item" @mouseover="showLink" @mouseleave="hideLink" @click="showLink" ref="target">
-            <text v-if="!Linkstate.show && isMobile" class="text_level3 itemText fade-in">联系<br>我们</text>
+            <text v-if="!Linkstate.show && isMobile" class="text_level3 itemText-m fade-in">联系<br>我们</text>
             <text v-else-if="!Linkstate.show && !isMobile" class="text_level3 itemText fade-in">联系我们</text>
             <div v-else-if="Linkstate.show && isMobile" class="center linkArea fade-in" id="needOut">
                 <myLink></myLink>
@@ -21,20 +21,20 @@
         </div>
         <div class="item">
             <a href="#/questions" class="text_level3">
-                <text v-if="isMobile" class="itemText fade-in">常见<br>问题</text>
+                <text v-if="isMobile" class="itemText-m fade-in">常见<br>问题</text>
                 <text v-else class="itemText fade-in">常见问题</text>
             </a>
         </div>
         <div class="item">
             <a href="#/userAgreement" class="text_level3">
-                <text v-if="isMobile" class="itemText fade-in">用户<br>协议</text>
-                <text v-else class="itemText fade-in">常见问题</text>
+                <text v-if="isMobile" class="itemText-m fade-in">用户<br>协议</text>
+                <text v-else class="itemText fade-in">用户协议</text>
             </a>
         </div>
         <div class="item">
             <a href="#/privacyStatement" class="text_level3">
-                <text v-if="isMobile" class="itemText fade-in">隐私<br>政策</text>
-                <text v-else class="itemText fade-in">常见问题</text>
+                <text v-if="isMobile" class="itemText-m fade-in">隐私<br>政策</text>
+                <text v-else class="itemText fade-in">隐私政策</text>
             </a>
         </div>
     </div>

@@ -28,6 +28,14 @@
     align-items: center;
 }
 
+.linkText-m {
+    text-align: center;
+    font-size: 10px;
+    fill: #00000066;
+    justify-content: center;
+    align-items: center;
+}
+
 a {
     text-decoration: none;
     transition: 200ms;
