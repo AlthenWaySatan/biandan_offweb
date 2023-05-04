@@ -35,6 +35,15 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="listArea">
+                    <text class="text_level1 documenttitleText">
+                        开发者：周哲宇
+                    </text>
+                    <text class="text_level1 documenttitleText">
+                        应用名称：便单
+                    </text>
+                </div>
             </div>
         </div>
         <div class="footer bottom">
