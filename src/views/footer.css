@@ -1,6 +1,11 @@
 .background {
-    display: flex;
     height: 100%;
+    width: 100%;
+}
+
+.items {
+    display: flex;
+    height: 160px;
     width: 100%;
     padding-left: 24px;
     padding-right: 24px;
@@ -96,4 +101,13 @@ a:hover {
     height: 16px;
     width: 16px;
     margin-right: 6px;
+}
+
+.links {
+    height: 40px;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: relative;
+    text-align: center;
 }
