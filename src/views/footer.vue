@@ -41,7 +41,7 @@
         </div>
         <div class="links">
             <a href="https://beian.miit.gov.cn" class="text_level3 linkText">
-                备案号：
+                备案号：蜀ICP备2023011339号-1
             </a>
         </div>
     </div>
