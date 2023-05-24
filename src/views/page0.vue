@@ -19,10 +19,12 @@
             <text class="text_level3 mainIntroduce">
                 · ArkTS 原生打造 · 5MB超小空间 · <br>
                 · 多端同步 · 本地备份 · <br>
-                · 万能卡片 · 四象限视图 · 日历视图· <br>
+                · 四象限视图 · 日历视图· <br>
                 · 多彩主题 · 自动深色 ·
             </text>
-            <!-- <div class="mainStamp"></div> -->
+            <a href="https://url.cloud.huawei.com/lTxyqxTTt6?shareTo=qrcode">
+                <div class="mainStamp"></div>
+            </a>
         </div>
         <div v-else class="center0 fade-in">
             <img src="/icon.png" alt="icon" class="mainIcon-m">
@@ -31,10 +33,12 @@
             <text class="text_level3 mainIntroduce-m">
                 · ArkTS 原生打造 · 5MB超小空间 · <br>
                 · 多端同步 · 本地备份 · <br>
-                · 万能卡片 · 四象限视图 · 日历视图· <br>
+                · 四象限视图 · 日历视图· <br>
                 · 多彩主题 · 自动深色 ·
             </text>
-            <!-- <div class="mainStamp"></div> -->
+            <a href="https://url.cloud.huawei.com/lTxyqxTTt6?shareTo=qrcode">
+                <div class="mainStamp"></div>
+            </a>
         </div>
     </div>
 </template>

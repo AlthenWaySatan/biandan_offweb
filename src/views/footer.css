@@ -6,9 +6,8 @@
 .items {
     display: flex;
     height: 160px;
-    width: 100%;
-    padding-left: 24px;
-    padding-right: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .item {
@@ -105,7 +104,6 @@ a:hover {
 
 .links {
     height: 40px;
-    width: 100%;
     padding-left: 24px;
     padding-right: 24px;
     position: relative;
