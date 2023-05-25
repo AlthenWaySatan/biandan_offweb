@@ -29,7 +29,7 @@
                 </div>
                 <div class="halfPart">
                     <div class="pageTextArea">
-                        <text class="text_level1 pageIntorTitle">·ArkTS语言，打造原生体验</text>
+                        <text class="text_level1 pageIntorTitle">·四象限视图，缓急一目了然</text>
                         <text class="text_level1 pageIntorText">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             打开四象限视图，便单将会根据您给的信息自动将今天的事项填入四象限，方便您安排事项的完成顺序。
@@ -59,7 +59,7 @@
                 </div>
                 <div class="halfPart-m">
                     <div class="pageTextArea-2-m">
-                        <text class="text_level1 pageIntorTitle-m">·ArkTS语言，<br>打造原生体验</text>
+                        <text class="text_level1 pageIntorTitle-m">·四象限视图，<br>缓急一目了然</text>
                         <text class="text_level1 pageIntorText-m">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             打开四象限视图，便单将会根据您给的信息自动将今天的事项填入四象限，方便您安排事项的完成顺序。
