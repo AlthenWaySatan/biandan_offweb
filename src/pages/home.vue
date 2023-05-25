@@ -1,12 +1,24 @@
 <template>
     <swiper :direction="'vertical'" :slidesPerView="'auto'" :spaceBetween="0" :mousewheel="true"
-        :pagination="{ clickable: true, dynamicBullets: true }" :modules="modules" class="mySwiper"
+        :pagination="{ clickable: true, dynamicBullets: true }" :modules="modules" class="mainSwiper"
         @transitionEnd="changeSlide">
+        <!-- <swiper-slide class="page">
+            <Page4 v-show="thisPage >= 0"></Page4>
+        </swiper-slide> -->
         <swiper-slide class="page">
-            <Page0 ref="page0" v-if="thisPage >= 0"></Page0>
+            <Page0 v-show="thisPage >= 0"></Page0>
         </swiper-slide>
         <swiper-slide class="page">
-            <Page1 ref="page1" v-if="thisPage >= 1"></Page1>
+            <Page1 v-show="thisPage >= 1"></Page1>
+        </swiper-slide>
+        <swiper-slide class="page">
+            <Page2 v-show="thisPage >= 2"></Page2>
+        </swiper-slide>
+        <swiper-slide class="page">
+            <Page3 v-if="thisPage >= 3"></Page3>
+        </swiper-slide>
+        <swiper-slide class="page">
+            <Page4 v-show="thisPage >= 4"></Page4>
         </swiper-slide>
         <swiper-slide class="footer">
             <Footer></Footer>
@@ -22,6 +34,9 @@ import '../style.css';
 
 import Page0 from "../views/page0.vue";
 import Page1 from "../views/page1.vue";
+import Page2 from "../views/page2.vue";
+import Page3 from "../views/page3.vue";
+import Page4 from "../views/page4.vue";
 import Footer from "../views/footer.vue";
 
 // import required modules
@@ -38,6 +53,9 @@ export default {
         SwiperSlide,
         Page0,
         Page1,
+        Page2,
+        Page3,
+        Page4,
         Footer,
     },
     methods: {

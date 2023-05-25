@@ -22,7 +22,8 @@
                 · 四象限视图 · 日历视图· <br>
                 · 多彩主题 · 自动深色 ·
             </text>
-            <a href="https://url.cloud.huawei.com/lTxyqxTTt6?shareTo=qrcode">
+            <a
+                href="hiapplink://com.huawei.appmarket?appId=C1005682483720629056&channelId=%E5%AE%98%E7%BD%91&id=99ec639f5dc248f1954be6589dbdebff&s=45B9CCD9D797BF5DFC6FE018B42AC7CEDCE08E3684092E47C3EC1266BD85AB3E&detailType=0&v=&callType=AGDLINK&installType=0000">
                 <div class="mainStamp"></div>
             </a>
         </div>
@@ -36,7 +37,8 @@
                 · 四象限视图 · 日历视图· <br>
                 · 多彩主题 · 自动深色 ·
             </text>
-            <a href="https://url.cloud.huawei.com/lTxyqxTTt6?shareTo=qrcode">
+            <a
+                href="hiapplink://com.huawei.appmarket?appId=C1005682483720629056&channelId=%E5%AE%98%E7%BD%91&id=99ec639f5dc248f1954be6589dbdebff&s=45B9CCD9D797BF5DFC6FE018B42AC7CEDCE08E3684092E47C3EC1266BD85AB3E&detailType=0&v=&callType=AGDLINK&installType=0000">
                 <div class="mainStamp"></div>
             </a>
         </div>

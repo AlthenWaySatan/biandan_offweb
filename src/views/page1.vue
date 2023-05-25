@@ -12,7 +12,7 @@
         <div class="pageback_img2 align_right move-right">
             <img src="/background/1-0.5-r.svg" alt="background" class="pageback_img">
         </div>
-        <div v-if="!isMobile" class="center1 fade-in" id="reIn">
+        <div v-if="!isMobile" class="center1 fade-in">
             <div class="pageImgArea">
                 <img src="/pageImg/pageImg1.png" alt="pageImg1" class="pageImg">
             </div>
