@@ -17,7 +17,7 @@
                         平板折叠屏界面同步开发，完美适配大屏，为您带来更舒适的沉浸式体验。
                     </text>
                 </div>
-                <img src="/pageImg/pageImg4.png" class="pageImg4">
+                <img src="/pageImg/pageImg4.webp" class="pageImg4">
                 <div class="textAreaPage4 setRight_Top">
                     <text class="text_level1 pageIntorTitle">·多端同步</text>
                     <text class="text_level1 pageIntorText">
@@ -36,7 +36,7 @@
                         平板折叠屏界面同步开发，完美适配大屏，为您带来更舒适的沉浸式体验。
                     </text>
                 </div>
-                <img src="/pageImg/pageImg4-m.png" class="pageImg4-m">
+                <img src="/pageImg/pageImg4-m.webp" class="pageImg4-m">
                 <div class="textAreaPage4-m-2 setRight_Top-m">
                     <text class="text_level1 pageIntorTitle-m">·多端同步</text>
                     <text class="text_level1 pageIntorText-m">

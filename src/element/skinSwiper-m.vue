@@ -1,19 +1,19 @@
 <template>
     <swiper :effect="'cards'" :pagination="true" :initialSlide="2" :modules="modules" class="pageCardArea-m">
         <swiper-slide class="swiperCard-m">
-            <img src="/pageImg/pageImg3-1.png" alt="pageImg3-1" class="cardImg-m">
+            <img src="/pageImg/pageImg3-1.webp" alt="pageImg3-1" class="cardImg-m">
         </swiper-slide>
         <swiper-slide class="swiperCard-m">
-            <img src="/pageImg/pageImg3-2.png" alt="pageImg3-2" class="cardImg-m">
+            <img src="/pageImg/pageImg3-2.webp" alt="pageImg3-2" class="cardImg-m">
         </swiper-slide>
         <swiper-slide class="swiperCard-m">
-            <img src="/pageImg/pageImg1.png" alt="pageImg3-3" class="cardImg-m">
+            <img src="/pageImg/pageImg1.webp" alt="pageImg3-3" class="cardImg-m">
         </swiper-slide>
         <swiper-slide class="swiperCard-m">
-            <img src="/pageImg/pageImg3-4.png" alt="pageImg3-4" class="cardImg-m">
+            <img src="/pageImg/pageImg3-4.webp" alt="pageImg3-4" class="cardImg-m">
         </swiper-slide>
         <swiper-slide class="swiperCard-m">
-            <img src="/pageImg/pageImg3-5.png" alt="pageImg3-5" class="cardImg-m">
+            <img src="/pageImg/pageImg3-5.webp" alt="pageImg3-5" class="cardImg-m">
         </swiper-slide>
     </swiper>
 </template>

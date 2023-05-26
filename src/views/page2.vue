@@ -16,7 +16,7 @@
             <div class="centerIntor">
                 <div class="halfPart">
                     <div class="pageImgArea-2">
-                        <img src="/pageImg/pageImg2-1.png" alt="pageImg2-1" class="pageImg">
+                        <img src="/pageImg/pageImg2-1.webp" alt="pageImg2-1" class="pageImg">
                     </div>
                     <div style="width: 100%;height: 24px;"></div>
                     <div class="pageTextArea">
@@ -37,7 +37,7 @@
                     </div>
                     <div style="width: 100%;height: 24px;"></div>
                     <div class="pageImgArea-2">
-                        <img src="/pageImg/pageImg2-2.png" alt="pageImg2-2" class="pageImg">
+                        <img src="/pageImg/pageImg2-2.webp" alt="pageImg2-2" class="pageImg">
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@
             <div class="centerIntor">
                 <div class="halfPart-m">
                     <div class="pageImgArea-2-m">
-                        <img src="/pageImg/pageImg2-1.png" alt="pageImg2-1" class="pageImg-m">
+                        <img src="/pageImg/pageImg2-1.webp" alt="pageImg2-1" class="pageImg-m">
                     </div>
                     <div style="width: 100%;height: 24px;"></div>
                     <div class="pageTextArea-2-m">
@@ -67,7 +67,7 @@
                     </div>
                     <div style="width: 100%;height: 24px;"></div>
                     <div class="pageImgArea-2-m">
-                        <img src="/pageImg/pageImg2-2.png" alt="pageImg2-2" class="pageImg-m">
+                        <img src="/pageImg/pageImg2-2.webp" alt="pageImg2-2" class="pageImg-m">
                     </div>
                 </div>
             </div>

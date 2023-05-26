@@ -1,10 +1,10 @@
 <template>
     <div class="pageback">
         <div class="pageback_img1 align_center move-outsidein">
-            <img src="/background/3-1.png" alt="background" class="pageback_img_center">
+            <img src="/background/3-1.webp" alt="background" class="pageback_img_center">
         </div>
         <div class="pageback_img2 align_center move-outsidein">
-            <img src="/background/3-0.5.png" alt="background" class="pageback_img_center">
+            <img src="/background/3-0.5.webp" alt="background" class="pageback_img_center">
         </div>
         <div v-if="!isMobile" class="center1 fade-in">
             <div class="pageTextArea">

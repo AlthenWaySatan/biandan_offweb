@@ -14,7 +14,7 @@
         </div>
         <div v-if="!isMobile" class="center1 fade-in">
             <div class="pageImgArea">
-                <img src="/pageImg/pageImg1.png" alt="pageImg1" class="pageImg">
+                <img src="/pageImg/pageImg1.webp" alt="pageImg1" class="pageImg">
             </div>
             <div class="pageTextArea">
                 <text class="text_level1 pageIntorTitle">·ArkTS语言，打造原生体验</text>
@@ -34,7 +34,7 @@
         </div>
         <div v-else class="center1 fade-in">
             <div class="pageImgArea-m">
-                <img src="/pageImg/pageImg1.png" alt="pageImg1" class="pageImg-m">
+                <img src="/pageImg/pageImg1.webp" alt="pageImg1" class="pageImg-m">
             </div>
             <div class="pageTextArea-m">
                 <text class="text_level1 pageIntorTitle-m">·ArkTS语言，<br>打造原生体验</text>
