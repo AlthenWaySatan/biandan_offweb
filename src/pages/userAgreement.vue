@@ -39,7 +39,7 @@
 
                 <div class="listArea">
                     <text class="text_level1 documenttitleText">
-                        开发者：周哲宇
+                        开发者：南京扁担软件有限公司
                     </text>
                     <text class="text_level1 documenttitleText">
                         应用名称：便单
