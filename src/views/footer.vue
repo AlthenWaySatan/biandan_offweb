@@ -38,6 +38,16 @@
                     <text v-else class="itemText fade-in">隐私政策</text>
                 </a>
             </div>
+            <div class="item" @mouseover="showMore" @mouseleave="hideMore" @click="showMore" ref="target">
+                <text v-if="!Morestate.show && isMobile" class="text_level3 itemText-m fade-in">查看<br>更多</text>
+                <text v-else-if="!Morestate.show && !isMobile" class="text_level3 itemText fade-in">查看更多</text>
+                <div v-else-if="Morestate.show && isMobile" class="center linkArea fade-in" id="needOut">
+                    <moreLink></moreLink>
+                </div>
+                <div v-else-if="Morestate.show && !isMobile" class="center fade-in">
+                    <moreLink></moreLink>
+                </div>
+            </div>
         </div>
         <div class="links">
             <a href="https://beian.miit.gov.cn" class="text_level3 linkText">
@@ -52,13 +62,16 @@ import { reactive } from 'vue'
 import { ref } from 'vue'
 import { onClickOutside } from '@vueuse/core'
 import myLink from '../element/myLink.vue'
+import moreLink from '../element/moreLink.vue'
 import './footer.css';
 import '../HMSansFont.css';
 var Linkstate = reactive({ show: false })
+var Morestate = reactive({ show: false })
 
 export default {
     components: {
-        myLink
+        myLink,
+        moreLink
     },
     methods: {
         showLink() {
@@ -68,6 +81,14 @@ export default {
         hideLink() {
             console.log('hideLink')
             Linkstate.show = false
+        },
+        showMore() {
+            console.log('showMore')
+            Morestate.show = true
+        },
+        hideMore() {
+            console.log('hideMore')
+            Morestate.show = false
         }
     },
     computed: {
@@ -79,14 +100,16 @@ export default {
         const target = ref(null)
 
         onClickOutside(target, (event) => {
-            if (!Linkstate.show) return;
+            if (!Linkstate.show || !Morestate.show) return;
             document.getElementById("needOut").classList.add('fade-out')
             setTimeout(function () {
                 Linkstate.show = false
+                Morestate.show = false
             }, 800)
         })
         return {
             Linkstate,
+            Morestate,
             target
         }
     }
