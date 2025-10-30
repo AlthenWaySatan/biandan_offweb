@@ -7,6 +7,7 @@ import Questions from './pages/question.vue'
 import UserAgreement from './pages/userAgreement.vue'
 import PrivacyStatement from './pages/PrivacyStatement.vue'
 import HaveacupAgentPrivacyStatement from './htmlPages/HaveacupAgentPrivacyStatement.vue'
+import BiandanAgentPrivacyStatement from './htmlPages/BiandanAgentPrivacyStatement.vue'
 import HaveacupUserAgreement from './htmlPages/HaveacupUserAgreement.vue'
 import XiangjiUserAgreement from './htmlPages/XiangjiUserAgreement.vue'
 
@@ -17,6 +18,7 @@ const routes = {
   '/privacyStatement': PrivacyStatement,
   '/haveacup_userAgreement': HaveacupUserAgreement,
   '/haveacup_agent_privacyStatement': HaveacupAgentPrivacyStatement,
+  '/biandan_agent_privacyStatement': BiandanAgentPrivacyStatement,
   '/xiangji_userAgreement': XiangjiUserAgreement,
 }
 
